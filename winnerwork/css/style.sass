@@ -1,0 +1,182 @@
+html,body,.box
+  height: 100%
+  width: 100%
+.profile1,
+.profile2,
+.profile3,
+.social,
+.social2,
+.social3,
+.news
+  height: 100%
+  width: 100%
+  h2
+    height: 44px
+    line-height: 44px
+    font-size: 22px
+    text-align: center
+    color: #fff
+    span
+      float: left
+      padding-left: 20px
+    i
+      float: right
+      padding-right: 20px
+.profile1
+  background: url("../images/Profile.png")
+  background-size: 100% 100%
+  .profile1-div
+    padding-top: 80%
+    text-align: center
+    font-size: 20px
+    color: #fff
+    p
+      padding-top: 10px
+      font-size: 18px
+  .profile1-ul
+    display: -webkit-flex
+    -webkit-justify-content: space-around
+    li
+      margin-top: 25px
+      text-align: center
+      color: #fff
+      font-weight: 700
+      p
+        font-weight: 400
+        font-size: 14px
+  .profile1-but
+    margin-top: 30px
+    width: 40%
+    height: 44px
+    color: #fff
+    font-weight: 700
+    margin-left: 30%
+    line-height: 44px
+    border-color: #F90DDE
+    background: #E50ECE
+    border-radius: 100px
+  .profile1-nav
+    position: absolute
+    bottom: 0
+    left: 0
+    height: 44px
+    line-height: 44px
+    width: 100%
+    display: -webkit-flex
+    -webkit-justify-content: space-around
+    background: #fff
+    color: #000
+    span
+      text-align: center
+.profile2
+  background: url("../images/Profile_01.png") no-repeat
+  background-size: 100% 220px
+  .profile2-img
+    height: 100px
+    width: 100px
+    border-radius: 35px
+    border: 2px solid #fff
+    position: absolute
+    top: 160px
+    left: 37%
+  .profile2-ul
+    padding-top: 180px
+    display: -webkit-flex
+    -webkit-justify-content: space-around
+    text-align: center
+    li
+      font-weight: 700
+      color: #000
+      &:nth-child(2)
+        padding-top: 50px
+      p
+        font-size: 14px
+        font-weight: 400
+        color: #8F8E93
+  .profile2-but
+    margin: 20px 0
+    height: 40px
+    line-height: 40px
+    width: 40%
+    margin-left: 30%
+    background: #67E60D
+    border-color: #70F90D
+    font-weight: 700
+    color: #fff
+    border-radius: 20px
+  .profile2-Photo
+    li
+      display: -webkit-flex
+      -webkit-justify-content: space-between
+      img
+        width: 48%
+        height: 100px
+        margin-bottom: 10px
+.profile3
+  overflow: hidden
+  h2
+    position: absolute
+    width: 100%
+    background: #1A1720
+  .profile3-dl
+    padding: 40px 0
+    height: 180px
+    background: #F5F3F8
+    dt
+      float: left
+      height: 100px
+      width: 100px
+      background: #fff
+      border-radius: 50px
+      text-align: center
+      margin-left: 10px
+      img
+        margin-top: 20px
+        height: 50px
+        width: auto
+    dd
+      margin-top: 45px
+      float: left
+      padding-left: 10px
+      color: #BEBBC2
+      font-size: 14px
+  .profile3-ul
+    li
+      color: #A6A4A9
+      height: 50px
+      line-height: 50px
+      padding: 0 20px
+      border-bottom: 1px solid #D2D2D2
+      span
+        float: right
+        color: #000
+
+
+.toggle
+
+  input
+    display: none
+    &:checked + .tack .handler
+      background: #FFFFFF
+      margin-left: 20px
+      -webkit-transition: margin-left .5s
+    &:checked + .tack
+      background : blue
+      -webkit-transition: background 2s
+  .tack
+    margin-top: 10px
+    height: 30px
+    width: 50px
+    border-radius: 15px
+    border: 1px solid #ccc
+    .handler
+      height: 28px
+      width: 29px
+      border-radius: 100%
+      border: 1px solid #ccc
+      margin-left: 0
+      background: #FFFFFF
+      -webkit-transition: margin-left 0.5s
+
+
+
